@@ -58,4 +58,7 @@ Installation:
 
       $ roslaunch robot_body Recording_stat.launch
 
+  Network configurations:
   
+    Create new Wi-Fi network and call it ROBOT and set the mode as hotspot.
+    
