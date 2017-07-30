@@ -62,3 +62,18 @@ Installation:
   
     Create new Wi-Fi network and call it ROBOT and set the mode as hotspot.
     
+  
+  if Pycharm not working you need to install Oracle Java JDK https://www.rosehosting.com/blog/how-to-install-java-on-ubuntu-16-04/ .
+  
+      $ sudo apt-get update && sudo apt-get -y upgrade
+      $ sudo apt-get install software-properties-common
+      $ sudo apt-add-repository ppa:webupd8team/java
+      $ sudo apt-get update
+      $ sudo apt install oracle-java8-installer
+      $ java -version
+      
+      java version "1.8.0_121"
+      Java(TM) SE Runtime Environment (build 1.8.0_121-b13)
+      Java HotSpot(TM) 64-Bit Server VM (build 25.121-b13, mixed mode)
+      
+      
